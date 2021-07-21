@@ -35,6 +35,18 @@ class PlantForThePlanetAPI {
         })
     }
 
+    getProjects() {
+        return axios({
+            method: 'get',
+            url: this.host + '/projects',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-SESSION-ID': this.sessionId,
+                'X-TOKEN-API': this.tokenId
+            }
+        })
+    }
+
     setTransaction(project, treeCount, donater) {
         return axios({
             method: 'post',
