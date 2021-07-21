@@ -1,4 +1,5 @@
 const axios = require('axios');
+const uuid = require('uuid');
 
 class PlantForThePlanetAPI {
 
@@ -42,7 +43,7 @@ class PlantForThePlanetAPI {
                 'Content-Type': 'application/json',
                 'X-SESSION-ID': this.sessionId,
                 'X-TOKEN-API': this.tokenId,
-                'IDEMPOTENCY-KEY': '1234567890'
+                'IDEMPOTENCY-KEY': uuid.v4()
             },
             data: {
                 "type": "trees",
