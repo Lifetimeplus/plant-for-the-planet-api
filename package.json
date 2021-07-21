@@ -1,0 +1,22 @@
+{
+  "name": "plant-for-the-planet-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lifetimeplus/plant-for-the-planet-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lifetimeplus/plant-for-the-planet-api/issues"
+  },
+  "homepage": "https://github.com/Lifetimeplus/plant-for-the-planet-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
