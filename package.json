@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Lifetimeplus/plant-for-the-planet-api#readme",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "uuid": "^8.3.2"
   }
 }
